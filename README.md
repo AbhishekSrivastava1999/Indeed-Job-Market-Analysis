@@ -39,7 +39,7 @@ Indeed-Job-Analysis/
 │   ├── sql_queries.sql      # SQL queries for data analysis
 │
 │── visualizations/         # Power BI and report files
-│   ├── indeed_dashboard.pbix # Power BI dashboard
+│   ├── Visualizations.pbix # Power BI dashboard
 │
 │── README.md               # Project documentation
 │── Requirements.txt        # Required Python libraries
