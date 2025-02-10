@@ -36,7 +36,6 @@ This project helped me **develop my data storytelling and visualization skills**
 ├── 📂 scripts
 │ ├── scrape_jobs.py → Web scraping with Selenium
 │ ├── clean_jobs.py → Data cleaning with Pandas & Regex
-│ ├── analysis.sql → SQL queries for structuring data
 ├── 📂 dashboard
 │ ├── PowerBI.pbix → Power BI file
 
