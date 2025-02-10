@@ -19,7 +19,6 @@ The goal of this project is to leverage data analytics to understand the job mar
 ## 🔧 Tools & Technologies Used
 
 - **Python** (Selenium, Pandas, NumPy) – Web scraping, data cleaning, and preprocessing
-- **SQL** – Data structuring and querying
 - **Power BI** – Data visualization and interactive dashboard creation
 - **Excel** – Data verification and quick calculations
 
@@ -75,12 +74,7 @@ The interactive Power BI dashboard provides insights into job postings, work mod
    python scripts/data_cleaning.py
    ```
 
-5. **Analyze the data using SQL:**
-   ```sh
-   sqlite3 database.db < scripts/sql_queries.sql
-   ```
-
-6. **Visualize the data:**
+5. **Visualize the data:**
    - Open `Visualizations.pbix` in Power BI
    - Refresh the data connections
 
