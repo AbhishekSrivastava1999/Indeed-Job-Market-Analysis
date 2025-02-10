@@ -1,72 +1,105 @@
-# 📊 Indeed Job Market Analysis: A Data-Driven Approach  
-🔍 Analyzing job postings to uncover trends in the Canadian job market  
+# 📊 Indeed Job Data Analysis
+
+## 🔍 Overview
+
+After searching for a Data Analyst role in Canada for over a year, I decided to take a data-driven approach to analyze job market trends. This project uses data from **Indeed job postings** to extract insights into hiring trends, top locations, in-demand skills, and work mode distributions.
+
+The goal of this project is to leverage data analytics to understand the job market better and enhance my skills in **Python, SQL, and Power BI**.
+
+## 🚀 Key Insights
+
+- **Top Hiring Cities**: Toronto, Vancouver, and Mississauga have the highest job postings.
+- **Most In-Demand Roles**: "Business Analyst" and "Data Analyst" dominate job postings.
+- **Work Mode Distribution**:
+  - **On-site**: Majority of job postings (~63%)
+  - **Hybrid**: Growing trend (~27%)
+  - **Remote**: Only ~9.8% of job listings are remote
+- **Top Hiring Companies**: ATB Financial, Loblaw, and McAfee, among others.
+
+## 🔧 Tools & Technologies Used
+
+- **Python** (Selenium, Pandas, NumPy) – Web scraping, data cleaning, and preprocessing
+- **SQL** – Data structuring and querying
+- **Power BI** – Data visualization and interactive dashboard creation
+- **Excel** – Data verification and quick calculations
+
+## 📂 Project Structure
+
+```
+Indeed-Job-Analysis/
+│── data/                   # Raw and cleaned job data
+│   ├── indeed_jobs.csv      # Raw scraped data
+│   ├── final_cleaned_jobs.csv # Cleaned job postings
+│   ├── location_summary.csv  # Summary of job locations
+│   ├── company_summary.csv   # Summary of hiring companies
+│
+│── scripts/                # Python scripts for scraping & cleaning
+│   ├── web_scraper.py       # Scrapes job postings from Indeed
+│   ├── data_cleaning.py     # Cleans and processes the raw data
+│   ├── sql_queries.sql      # SQL queries for data analysis
+│
+│── visualizations/         # Power BI and report files
+│   ├── indeed_dashboard.pbix # Power BI dashboard
+│
+│── README.md               # Project documentation
+│── Requirements.txt        # Required Python libraries
+```
+
+## 📈 Power BI Dashboard
+
+The interactive Power BI dashboard provides insights into job postings, work mode distribution, and hiring trends.
+
+🔗 **View Dashboard (If Published)**: [Power BI Report Link]
+
+## 🛠 How to Run the Project
+
+1. **Clone this repository:**
+   ```sh
+   git clone https://github.com/yourusername/Indeed-Job-Analysis.git
+   cd Indeed-Job-Analysis
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   pip install -r Requirements.txt
+   ```
+
+3. **Run the web scraper:**
+   ```sh
+   python scripts/web_scraper.py
+   ```
+   *(Make sure to configure Selenium properly if scraping new data.)*
+
+4. **Clean and preprocess the data:**
+   ```sh
+   python scripts/data_cleaning.py
+   ```
+
+5. **Analyze the data using SQL:**
+   ```sh
+   sqlite3 database.db < scripts/sql_queries.sql
+   ```
+
+6. **Visualize the data:**
+   - Open `indeed_dashboard.pbix` in Power BI
+   - Refresh the data connections
+
+## 💡 Future Improvements
+
+- Automate data updates with scheduled scraping
+- Include job descriptions for deeper text analysis
+- Integrate salary trends into analysis
+
+## 🤝 Connect with Me
+
+If you're a **recruiter, hiring manager, or fellow job seeker**, let’s connect! I'm actively looking for a **Data Analyst** role and open to discussing insights from this project.
+
+📧 **Email**: abhisheksrivastava613@gmail.com  
+🔗 **LinkedIn**: [linkedin.com/in/abhishek-srivastava1999](https://www.linkedin.com/in/abhishek-srivastava1999/)  
+💻 **GitHub**: [github.com/AbhishekSrivastava1999](https://github.com/AbhishekSrivastava1999/)
 
 ---
 
-## 📌 Project Overview  
-Over the past year, I have been actively searching for a **Data Analyst role in Canada**. To gain better insights into the job market, I decided to **analyze job postings from Indeed** and identify key trends such as:  
+### ⭐ If you found this project useful, consider giving it a **star** on GitHub!
 
-✅ **Top hiring cities & companies**  
-✅ **Most in-demand job titles**  
-✅ **Work mode distribution (On-site, Remote, Hybrid)**  
-✅ **Job market trends & skill demand**  
-
-This project helped me **develop my data storytelling and visualization skills** while providing a **real-world perspective on job market trends**.  
-
----
-
-## 📊 Key Insights  
-📍 **Top Hiring Locations:** Toronto, Vancouver, and Mississauga have the highest job postings.  
-📌 **Most Common Roles:** "Business Analyst" and "Data Analyst" are the most in-demand job titles.  
-🏠 **Remote Jobs:** Only **~9.8%** of postings are remote, indicating a shift toward **on-site/hybrid roles**.  
-
----
-
-## 🛠 Tools & Technologies Used  
-🔹 **Python (Selenium, Pandas, Regex)** – Web scraping & data cleaning  
-🔹 **SQL (PostgreSQL/MySQL)** – Data structuring & querying  
-🔹 **Power BI** – Interactive dashboard & visual storytelling  
-
----
-
-## 📂 Project Structure  
-📂 Indeed-Job-Market-Analysis
-├── 📜 README.md → Overview of the project
-├── 📂 data → Sample cleaned CSV files
-├── 📂 scripts
-│ ├── scrape_jobs.py → Web scraping with Selenium
-│ ├── clean_jobs.py → Data cleaning with Pandas & Regex
-├── 📂 dashboard
-│ ├── PowerBI.pbix → Power BI file
-
-
----
-
-## 📊 How to Run This Project  
-### 1️⃣ Clone this repository  
-```bash
-git clone [GitHub Repo Link]
-cd Indeed-Job-Market-Analysis
-2️⃣ Install dependencies
-pip install selenium pandas sqlalchemy
-
-3️⃣ Run the web scraper to collect job postings
-python scripts/scrape_jobs.py
-
-4️⃣ Clean the data using
-python scripts/clean_jobs.py
-
-5️⃣ Use SQL queries to analyze the dataset
--- Example Query: Top 10 Hiring Companies
-SELECT company, COUNT(*) AS job_count
-FROM job_postings
-GROUP BY company
-ORDER BY job_count DESC
-LIMIT 10;
-
-6️⃣ Open the Power BI dashboard to explore insights!
-Load the cleaned dataset into Power BI
-Open PowerBI.pbix to view the interactive dashboard
-
-📂 Sample Data (CSV Files)
-You can find sample datasets in the data/ folder to test and explore the project without running the scraper.
+#DataAnalytics #PowerBI #Python #JobMarket #CareerGrowth #DataVisualization
