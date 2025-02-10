@@ -35,7 +35,6 @@ Indeed-Job-Analysis/
 │── scripts/                # Python scripts for scraping & cleaning
 │   ├── web_scraper.py       # Scrapes job postings from Indeed
 │   ├── data_cleaning.py     # Cleans and processes the raw data
-│   ├── sql_queries.sql      # SQL queries for data analysis
 │
 │── visualizations/         # Power BI and report files
 │   ├── Visualizations.pbix # Power BI dashboard
