@@ -81,7 +81,7 @@ The interactive Power BI dashboard provides insights into job postings, work mod
    ```
 
 6. **Visualize the data:**
-   - Open `indeed_dashboard.pbix` in Power BI
+   - Open `Visualizations.pbix` in Power BI
    - Refresh the data connections
 
 ## 💡 Future Improvements
